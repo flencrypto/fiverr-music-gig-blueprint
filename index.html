@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiverr Music Gig Blueprint - Zero to Live Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎵 Fiverr Music Gig Blueprint</h1>
+                <p class="subtitle">Zero → Live Profile with Custom Songs, Artwork & Video</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p class="progress-text" id="progressText">0% Complete</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h3>📋 Stages</h3>
+                </div>
+                <nav class="stage-nav" id="stageNav">
+                    <!-- Populated by JavaScript -->
+                </nav>
+                <div class="sidebar-stats">
+                    <div class="stat">
+                        <span class="stat-label">Completed:</span>
+                        <span class="stat-value" id="completedCount">0</span>/<span id="totalCount">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Time Left:</span>
+                        <span class="stat-value" id="timeEstimate">~40 hours</span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Stage Content -->
+            <section class="stage-content">
+                <div class="stages-container" id="stagesContainer">
+                    <!-- Populated by JavaScript -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>💡 Tip: Save your progress by taking screenshots of completed stages. Use Fiverr's gig editor to implement each stage.</p>
+            <p class="footer-text">Last Updated: December 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
